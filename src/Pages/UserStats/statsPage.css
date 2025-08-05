@@ -1,0 +1,55 @@
+.statsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.statSection {
+    width: 35%;
+    float: left;
+    border-radius: 25px;
+    background: #202020;
+    color: white;
+    padding: 10px;
+    border: 2px solid lightgray;
+    margin: 20px;
+    align-items: stretch;
+    text-align: center;
+    align-content: center;
+}
+
+.timePlayed {
+    width: 25%;
+    float: left;
+    border-radius: 25px;
+    background: #202020;
+    color: white;
+    padding: 10px;
+    border: 2px solid lightgray;
+    margin: 20px;
+    align-items: stretch;
+    text-align: center;
+    align-content: center;
+}
+
+.statSectionHeatmap {
+    width: 72%;
+    float: left;
+    border-radius: 25px;
+    padding: 10px;
+    border: 2px solid lightgray;
+    margin: 20px;
+    background: #202020;
+    color: white;
+    text-align: center;
+}
+
+img{
+    border-radius: 25px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width:90%;
+    padding: 10px;
+    border: 2px solid white;
+}
