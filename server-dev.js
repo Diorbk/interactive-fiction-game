@@ -40,7 +40,7 @@ app.use(session({
 import SentimentRoutes from './routes/SentimentRoutes.js';
 app.use('/api/nlp', SentimentRoutes);
 
-const dbURI = "mongodb+srv://Admin_1:lLrnAwIbvkI7Hgj9@clustergroup8.o6myn.mongodb.net/dev";  // Added /dev to create dev database
+const dbURI = ;  // add mongo db atlas link
 
 // Database initialization function
 async function initializeDatabase() {
